@@ -36,7 +36,6 @@ class StopwatchWithResults extends Stopwatch {
     renderować w niej nowe elementy li
     na podstawie zawartości tablicy this.results.
     Każdy jej element powinien być renderowany bez żadnych zmian.
-    np. <li>00:12:00</li>
     */
     this.dom.resultsList.innerHTML = "";
     for (let i: number = 0; i < this.results.length; i++) {
